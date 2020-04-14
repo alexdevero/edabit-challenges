@@ -5,7 +5,7 @@ function validatePIN(pin) {
 validatePIN('1234') // true
 validatePIN('12345') // false
 validatePIN('a234') // false
-validatePIN(') // false
+validatePIN('') // false
 validatePIN('%234') // false
 validatePIN('`234') // false
 validatePIN('@234') // false
