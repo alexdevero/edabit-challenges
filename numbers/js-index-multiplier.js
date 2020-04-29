@@ -1,5 +1,5 @@
 function indexMultiplier(arr) {
-	return arr.map((num, idx) => num * idx).reduce((acc, curVal) => acc + curVal, 0)
+	return arr.reduce((acc, curVal, ind) => acc + (curVal * ind),0)
 }
 
 indexMultiplier([9, 3, 7, -7]) // -4
