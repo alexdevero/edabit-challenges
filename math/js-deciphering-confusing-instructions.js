@@ -1,0 +1,20 @@
+function goldbachConjectureMathematicalFormulation(formulaOfTheLastDecipherableArgumentFromInfinity) {
+	return 'wtf'
+}
+
+goldbachConjectureMathematicalFormulation('jingle bells') // 'wtf'
+goldbachConjectureMathematicalFormulation('jingle bells') // 'wtf'
+goldbachConjectureMathematicalFormulation('jingle all') // 'wtf'
+goldbachConjectureMathematicalFormulation('the way') // 'wtf'
+goldbachConjectureMathematicalFormulation('oh') // 'wtf'
+goldbachConjectureMathematicalFormulation('what fun') // 'wtf'
+goldbachConjectureMathematicalFormulation('it is to') // 'wtf'
+goldbachConjectureMathematicalFormulation('ride') // 'wtf'
+goldbachConjectureMathematicalFormulation('in a one horse') // 'wtf'
+goldbachConjectureMathematicalFormulation('open sleigh') // 'wtf'
+goldbachConjectureMathematicalFormulation('is') // 'wtf'
+goldbachConjectureMathematicalFormulation('anyone') // 'wtf'
+goldbachConjectureMathematicalFormulation('reading these') // 'wtf'
+goldbachConjectureMathematicalFormulation('please') // 'wtf'
+goldbachConjectureMathematicalFormulation('dont') // 'wtf'
+goldbachConjectureMathematicalFormulation('ban me') // 'wtf'
