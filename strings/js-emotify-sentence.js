@@ -1,5 +1,5 @@
 function emotify(str) {
-	const emojis = {'smile': ':D', 'grin': ':)', 'sad': ':(', 'mad': ':P' }
+	const emojis = { 'smile': ':D', 'grin': ':)', 'sad': ':(', 'mad': ':P' }
 
   return str.replace(/smile|grin|sad|mad/g, (word) => emojis[word])
 }
