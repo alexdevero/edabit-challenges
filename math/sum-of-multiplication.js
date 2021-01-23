@@ -1,6 +1,5 @@
 function multiSum(num, ten=10) {
-	return Array.from(new Array(ten), (el, i) => (i + 1) * num)
-		.reduce((acc, curVal) => acc + curVal, 0)
+	return ten == 0 ? 0 : ten * num + multiSum(num, ten - 1)
 }
 
 multiSum(1) // 55
