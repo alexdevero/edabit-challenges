@@ -1,6 +1,6 @@
 function mubashirFunction(a, b) {
 	return a >= 10 || b >= 10 ?
-		('' + a).split('').reduce((acc, cur) => acc + (+cur) // 0) * ('' + b).split('').reduce((acc, cur) => acc + (+cur) // 0)
+		('' + a).split('').reduce((acc, cur) => acc + (+cur), 0) * ('' + b).split('').reduce((acc, cur) => acc + (+cur), 0)
 	: a * b
 }
 
