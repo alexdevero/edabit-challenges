@@ -1,0 +1,18 @@
+def even_or_odd(lst):
+  return 'odd' if sum(lst) % 2 else 'even'
+
+even_or_odd([0]) # 'even'
+even_or_odd([1]) # 'odd'
+even_or_odd([]) # 'even'
+even_or_odd([0, 1, 5]) # 'even'
+even_or_odd([0, 1, 3]) # 'even'
+even_or_odd([1023, 1, 2]) # 'even'
+even_or_odd([0, -1, -5]) # 'even'
+even_or_odd([0, -1, -3]) # 'even'
+even_or_odd([-1023, 1, -2]) # 'even'
+even_or_odd([0, 1, 2]) # 'odd'
+even_or_odd([0, 1, 4]) # 'odd'
+even_or_odd([1023, 1, 3]) # 'odd'
+even_or_odd([0, -1, 2]) # 'odd'
+even_or_odd([0, 1, -4]) # 'odd'
+even_or_odd([-1023, -1, 3]) # 'odd'
